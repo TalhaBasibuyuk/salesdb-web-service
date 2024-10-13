@@ -4,7 +4,8 @@
 CREATE TABLE if NOT EXISTS customers (
     customer_id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
     full_name VARCHAR(255),
-    email_address VARCHAR(255)
+    email_address VARCHAR(255),
+    phone_number VARCHAR(255)
 );
 
 CREATE TABLE if NOT EXISTS orders (
